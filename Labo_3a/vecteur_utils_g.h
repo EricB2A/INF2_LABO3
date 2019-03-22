@@ -4,10 +4,18 @@
 #include <iostream>
 #include <vector>
 
-template <typename T, typename UnaryPredicate>
-void vecteur_tri_bulle(std::vector<T>& v, UnaryPredicate ordre){
-    
-
+template <typename T, typename U>
+void vecteur_tri_bulle(std::vector<T>& v){
+   U predicat;
+    for(size_t i = v.size(); i > 1; --i){
+        for(size_t j = 0; j < i - 1; ++j){
+            if(predicat(v.at(j), v.at(j+1))){
+                T tmp = v.at(j);
+                v.at(j) = v.at(j+1);
+                v.at(j+1) = tmp;
+            }
+        }
+    }
 }
 
 template <typename T> 

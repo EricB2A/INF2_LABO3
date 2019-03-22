@@ -4,6 +4,7 @@
 
 using namespace std;
 
+template <typename T>
 ostream& operator<<(ostream& lhs, const vector<T>& rhs){
     lhs << "[";
     for (size_t i = 0; i < rhs.size(); ++i) {
@@ -12,5 +13,5 @@ ostream& operator<<(ostream& lhs, const vector<T>& rhs){
             lhs << ", ";
         }
     }
-    return lhs << ']';
+    return lhs << "]";
 }
