@@ -7,6 +7,7 @@ nbdist/
 /build/
 /dist/
 .vscode/
+.DS_Store
 
 *
 !/**/
