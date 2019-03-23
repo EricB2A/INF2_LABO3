@@ -5,15 +5,23 @@
 
 using namespace std;
 
+template <typename T>
+void test_tri_bulle(vector<T>& v){
+    cout << "Vecteur avant tri : " << v << endl;
+    vecteur_tri_bulle<T, greater<T>>(v);
+    cout << "Vecteur apres tri croissant: " << v << endl;
+    vecteur_tri_bulle<T, less<T>>(v);
+    cout << "Vecteur apres tri decroissant: " << v << endl;
+}
+
 int main(){
-    // ordre trié: [1, 2, 3, 3, 4, 5, 6]
     vector<int> v_int {1, 5, 43, 3};
+    test_tri_bulle(v_int);
+    cout << endl;
+    vector<string> v_string {"abc", "aaa", "aa", "ab"};
+    test_tri_bulle(v_string);
 
-    cout << "Vecteur (entiers) avant tri : ";
-    cout << v_int << endl;
-    cout << "Vecteur (entiers) apres tri : ";
-    vecteur_tri_bulle<int, less<int>>(v_int);
-    cout << v_int << endl;
-
+    cout << "Appuyez sur une touche pour continuer... ";
+    cin.get();
     return EXIT_SUCCESS;
 }
