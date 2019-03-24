@@ -7,7 +7,6 @@ nbdist/
 /build/
 /dist/
 .vscode/
-.DS_Store
 
 *
 !/**/
@@ -48,3 +47,5 @@ nbdist/
 *.exe
 *.out
 *.app
+
+.DS_Store
