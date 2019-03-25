@@ -8,7 +8,7 @@
  But         : Ce programme a pour de trier - de manière croissante et décroissante -   
                différents vecteurs. Ces derniers sont affichés avant et après être triés.
 
- Remarque(s) : -
+ Remarque(s) : ---
 
  Compilateur : Apple LLVM version 9.0.0 (clang-900.0.39.2)
  -----------------------------------------------------------------------------------
