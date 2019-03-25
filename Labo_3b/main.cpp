@@ -1,3 +1,19 @@
+/*
+ -----------------------------------------------------------------------------------
+ Laboratoire : 03
+ Fichier     : Labo3b/main.cpp
+ Auteur(s)   : Eric Bousbaa
+ Date        : 25.03.2019
+
+ But         : Ce programme a pour de trier - de manière croissante et décroissante -   
+               différents vecteurs. Ces derniers sont affichés avant et après être triés. 
+
+ Remarque(s) : -
+
+ Compilateur : Apple LLVM version 9.0.0 (clang-900.0.39.2)
+ -----------------------------------------------------------------------------------
+*/
+
 #include <iostream>
 #include <vector>
 #include <functional>

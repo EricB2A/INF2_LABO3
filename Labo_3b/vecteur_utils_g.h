@@ -1,3 +1,21 @@
+/*
+ -----------------------------------------------------------------------------------
+ Laboratoire : 03
+ Fichier     : Labo3b/vecteur_utils_g.h
+ Auteur(s)   : Eric Bousbaa
+ Date        : 25.03.2019
+
+ But         : Contient différentes fonctions s'appliquant sur des vecteurs, dont 
+               notamment un tri à bulle.
+
+ Remarque(s) : La fonction de tri à bulle a pour paramètre une fonction objet qui a 
+               pour but de définir la comparaison de 2 éléments du vecteur. Celle-ci 
+               utilise la notion de template template. 
+
+ Compilateur : Apple LLVM version 9.0.0 (clang-900.0.39.2)
+ -----------------------------------------------------------------------------------
+*/
+
 #ifndef VECTEUR_UTILS_G_H
 #define VECTEUR_UTILS_G_H
 
